@@ -204,7 +204,7 @@ document.getElementById("Seven-card").addEventListener("click", function () {
   });
 
 
-//   Nine Card
+//   Eight Card
 document.getElementById("Nine-card").addEventListener("click", function () {
     const productName = document
       .getElementById("Nine-products-name")
@@ -233,7 +233,7 @@ document.getElementById("Nine-card").addEventListener("click", function () {
 
 
 
-//   Eight Card
+//   Nine Card
 document.getElementById("Eight-card").addEventListener("click", function () {
     const productName = document
       .getElementById("Eight-products-name")
@@ -286,4 +286,9 @@ document.getElementById("coupon-apply").addEventListener("click", function () {
   } else {
     this.disabled = true;
   }
+});
+
+
+document.getElementById('reload-web').addEventListener('click', function () {
+  window.location.replace('/')
 });
