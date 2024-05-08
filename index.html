@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Summer Sele</title>
+    <!-- tailwindcss style -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- fontawesome icon -->
+    <script
+      src="https://kit.fontawesome.com/f2ea866135.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.10.5/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Summer Sale bar -->
+    <header class="bg-amber-50 pb-10 pt-6 ">
+      <div class="lg:flex flex-row items-center justify-around">
+        <div class="text-center text-slate-900">
+          <p class="lg:text-xl font-medium pb-12">---SALE FEVER---</p>
+          <h1 class="lg:text-4xl  font-bold lg:w-96 sm: w-72 pb-12">
+            Purchase TK 200 or above & get
+            <span class="text-fuchsia-600">20% off</span>
+          </h1>
+          <p class="font-medium lg:text-sm">
+            Use Promo Code
+            <span
+              class="font-medium lg:text-sm bg-fuchsia-500 text-white ml-2 px-2 py-1 rounded"
+            >
+              SELL200
+            </span>
+          </p>
+        </div>
+        <div>
+          <img
+            class="h-auto lg:max-w-lg"
+            src="images/Summer 1.png"
+            alt=""
+            srcset=""
+          />
+        </div>
+      </div>
+    </header>
+    <main class="bg-neutral-50 lg:flex justify-around py-10 pe-10">
+      <!-- all card section -->
+      <section>
+        <div>
+          <!-- Kitchenware card -->
+          <h1 class="text-4xl font-medium text-gray-800  lg:ps-10 pt-20 pb-8">Kitchenware</h1>
+          <div class="lg:flex justify-around lg:px-12">
+            <div class="grid lg:grid-cols-3 -ms-4 mb-24 gap-6">
+              <!-- first-card -->
+              <div
+                id="first-card"
+                class="w-80 h-80 max-w-sm bg-white border border-gray-50 rounded-lg shadow"
+              >
+                <a>
+                  <img
+                    class="text-center bg-neutral-200 mx-auto w-max lg:h-max lg:py-6 lg:px-20 mt-6 mb-4 rounded-t-lg"
+                    src="images/prod1.png"
+                    alt="product image"
+                  />
+                </a>
+                <ul class="text-center mx-auto">
+                  <i class="text-orange-500 fa-solid fa-star"></i>
+                  <i class="text-orange-500 fa-solid fa-star"></i>
+                  <i class="text-orange-500 fa-solid fa-star"></i>
+                  <i class="text-orange-500 fa-regular fa-star"></i>
+                  <i class="text-orange-500 fa-regular fa-star"></i>
+                </ul>
+                <div class="px-5 pb-5">
+                  <h5
+                    id="products-name"
+                    class="text-xl font-semibold text-center text-gray-800 mx-auto"
+                  >
+                    K. Accessories
+                  </h5>
+                  <div class="flex items-center">
+                    <span
+                      class="text-sm text-center flex mx-auto font-bold"
+                      id="products-price"
+                      >39.00
+                      <p>TK</p></span
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- second-card -->
+              <div 
+              id="second-card"
+                class="w-80 h-80 max-w-sm bg-white border border-gray-50 rounded-lg shadow"
+              >
+                <a>
+                  <img
+                    class="text-center bg-neutral-200 mx-auto w-max h-max py-6 px-20 mt-6 mb-4 rounded-t-lg"
+                    src="images/prod2.png"
+                    alt="product image"
+                  />
+                </a>
+                <ul class="text-center mx-auto">
+                  <i class="text-orange-500 fa-regular fa-star"></i>
+                  <i class="text-orange-500 fa-regular fa-star"></i>
+                  <i class="text-orange-500 fa-regular fa-star"></i>
+                  <i class="text-orange-500 fa-regular fa-star"></i>
+                  <i class="text-orange-500 fa-regular fa-star"></i>
+                </ul>
+                <div class="px-5 pb-5">
+                  <h5 id="second-products-name" class="text-xl font-semibold text-gray-800 text-center mx-auto">
+                    K. Accessories
+                  </h5>
+                  <div class="flex items-cente justify-between">
+                    <span id="second-products-price" class="text-sm text-center mx-auto font-bold"
+                      >25.00 TK</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- Three-card -->
+              <div
+              id="Three-card"
+                class="w-80 h-80 max-w-sm bg-white border border-gray-50 rounded-lg shadow"
+              >
+                <a>
+                  <img
+                    class="text-center bg-neutral-200 mx-auto w-max h-max py-6 px-20 mt-6 mb-4 rounded-t-lg"
+                    src="images/prod3.png"
+                    alt="product image"
+                  />
+                </a>
+                <ul class="text-center mx-auto">
+                  <i class="text-orange-500 fa-solid fa-star"></i>
+                  <i class="text-orange-500 fa-solid fa-star"></i>
+                  <i class="text-orange-500 fa-solid fa-star"></i>
+                  <i class="text-orange-500 fa-solid fa-star"></i>
+                  <i class="text-orange-500 fa-regular fa-star"></i>
+                </ul>
+                <div class="px-5 pb-5">
+                  <h5 id="Three-products-name" class="text-xl font-semibold text-gray-800 text-center mx-auto">
+                    Home Cooker
+                  </h5>
+                  <div class="flex items-center justify-between">
+                    <span id="Three-products-price" class="text-sm text-center mx-auto font-bold"
+                      >49.00 TK</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- add section -->
+        </div>
+        <!-- Sportswear section -->
+        <div>
+          <h1 class="text-4xl font-medium text-gray-800  lg:ps-10 pb-8">Sportswear</h1>
+          <div class="lg:flex justify-start gap-6 lg:ps-10">
+                    <!-- Four Card  -->
+            <div id="Four-card"
+              class="w-80 h-80 lg:max-w-sm bg-white border border-gray-50 m-0 rounded-lg shadow"
+            >
+              <a>
+                <img
+                  class="text-center bg-neutral-200 lg:mx-auto lg:w-max lg:h-max py-6 px-20 mt-6 mb-4 rounded-t-lg"
+                  src="images/prod4.png"
+                  alt="product image"
+                />
+              </a>
+              <ul class="text-center mx-auto">
+                <i class="text-orange-500 fa-solid fa-star"></i>
+                <i class="text-orange-500 fa-solid fa-star"></i>
+                <i class="text-orange-500 fa-regular fa-star"></i>
+                <i class="text-orange-500 fa-regular fa-star"></i>
+                <i class="text-orange-500 fa-regular fa-star"></i>
+              </ul>
+              <div class="px-5 pb-5">
+                <h5  id="Four-products-name" class="text-xl text-gray-800 font-semibold text-center mx-auto">
+                  Sports Back Cap
+                </h5>
+                <div class="flex items-center justify-between">
+                  <span id="Four-products-price" class="text-sm text-center mx-auto font-bold"
+                    >49.00 TK</span
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- Five Card -->
+            <div 
+            id="Five-card"
+              class="w-80 h-80 max-w-sm bg-white border border-gray-50 rounded-lg shadow"
+            >
+              <a>
+                <img
+                  class="text-center bg-neutral-200 mx-auto w-max h-max py-6 px-20 mt-6 mb-4 rounded-t-lg"
+                  src="images/prod5.png"
+                  alt="product image"
+                />
+              </a>
+              <ul class="text-center mx-auto">
+                <i class="text-orange-500 fa-solid fa-star"></i>
+                <i class="text-orange-500 fa-solid fa-star"></i>
+                <i class="text-orange-500 fa-solid fa-star"></i>
+                <i class="text-orange-500 fa-solid fa-star"></i>
+                <i class="text-orange-500 fa-regular fa-star"></i>
+              </ul>
+              <div class="px-5 pb-5">
+                <h5 id="Five-products-name" class="text-xl text-gray-800 font-semibold text-center mx-auto">
+                  Full Jersey Set
+                </h5>
+                <div  class="flex items-center justify-between">
+                  <span id="Five-products-price" class="text-sm text-center mx-auto font-bold"
+                    >69.00 TK</span
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- Six Card  -->
+            <div
+            id="Six-card"
+              class="w-80 h-80 max-w-sm bg-white border border-gray-50 rounded-lg shadow"
+            >
+              <a>
+                <img
+                  class="text-center bg-neutral-200 mx-auto w-max h-max py-6 px-20 mt-6 mb-4 rounded-t-lg"
+                  src="images/prod6.png"
+                  alt="product image"
+                />
+              </a>
+              <ul class="text-center mx-auto">
+                <i class="text-orange-500 fa-solid fa-star"></i>
+                <i class="text-orange-500 fa-solid fa-star"></i>
+                <i class="text-orange-500 fa-solid fa-star"></i>
+                <i class="text-orange-500 fa-regular fa-star"></i>
+                <i class="text-orange-500 fa-regular fa-star"></i>
+              </ul>
+              <div class="px-5 pb-5">
+                <h5 id="Six-products-name" class="text-xl font-semibold text-gray-800 text-center mx-auto">
+                  Sports cates
+                </h5>
+                <div class="flex items-center justify-between">
+                  <span id="Six-products-price" class="text-sm text-center mx-auto font-bold"
+                    >159.00 TK</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Furniture section -->
+        <div>
+          <h1 class="text-4xl font-medium  text-gray-800 lg:ps-10 pb-8 pt-20">Furniture</h1>
+          <div id="Five-card" 
+          class="lg:flex justify-start gap-6 lg:ps-10">
+            <!-- Seven-card -->
+            <div id="Seven-card"
+              class="w-80 h-80 max-w-sm bg-white border border-gray-50 rounded-lg shadow"
+            >
+              <a>
+                <img
+                  class="text-center bg-neutral-200 mx-auto w-max h-max py-6 px-20 mt-6 mb-4 rounded-t-lg"
+                  src="images/prod7.png"
+                  alt="product image"
+                />
+              </a>
+              <ul class="text-center mx-auto">
+                <i class="text-orange-500 fa-solid fa-star"></i>
+                <i class="text-orange-500 fa-solid fa-star"></i>
+                <i class="text-orange-500 fa-solid fa-star"></i>
+                <i class="text-orange-500 fa-solid fa-star"></i>
+                <i class="text-orange-500 fa-regular fa-star"></i>
+              </ul>
+              <div class="px-5 pb-5">
+                <h5 id="Seven-products-name" class="text-xl  text-gray-800 font-semibold text-center mx-auto">
+                  Single Relax Chair
+                </h5>
+                <div class="flex items-center justify-between">
+                  <span id="Seven-products-price" class="text-sm text-center mx-auto font-bold"
+                    >185.00 TK</span
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- Eight Card -->
+            <div id="Eight-card"
+              class="w-80 h-80 max-w-sm bg-white border border-gray-50 rounded-lg shadow"
+            >
+              <a>
+                <img
+                  class="text-center bg-neutral-200 mx-auto w-max h-max py-6 px-20 mt-6 mb-4 rounded-t-lg"
+                  src="images/prod8.png"
+                  alt="product image"
+                />
+              </a>
+              <ul class="text-center mx-auto">
+                <i class="text-orange-500 fa-solid fa-star"></i>
+                <i class="text-orange-500 fa-solid fa-star"></i>
+                <i class="text-orange-500 fa-solid fa-star"></i>
+                <i class="text-orange-500 fa-solid fa-star"></i>
+                <i class="text-orange-500 fa-solid fa-star"></i>
+              </ul>
+              <div class="px-5 pb-5">
+                <h5 id="Eight-products-name" class="text-xl font-semibold text-gray-800 text-center mx-auto">
+                  Children play
+                </h5>
+                <div class="flex items-center  justify-between">
+                  <span id="Eight-products-price" class="text-sm text-center mx-auto font-bold"
+                    >299.00 TK</span
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- Nine Card -->
+            <div
+            id="Nine-card"
+              class="w-80 h-80 max-w-sm bg-white border border-gray-50 rounded-lg shadow"
+            >
+              <a>
+                <img
+                  class="text-center bg-neutral-200 mx-auto w-max h-max py-6 px-20 mt-6 mb-4 rounded-t-lg"
+                  src="images/prod9.png"
+                  alt="product image"
+                />
+              </a>
+              <ul class="text-center mx-auto">
+                <i class="text-orange-500 fa-solid fa-star"></i>
+                <i class="text-orange-500 fa-solid fa-star"></i>
+                <i class="text-orange-500 fa-solid fa-star"></i>
+                <i class="text-orange-500 fa-solid fa-star"></i>
+                <i class="text-orange-500 fa-solid fa-star"></i>
+              </ul>
+              <div class="px-5 pb-5">
+                <h5 id="Nine-products-name" class="text-xl text-gray-800 font-semibold text-center mx-auto">
+                  Flexible Sofa
+                </h5>
+                <div class="flex items-centerjustify-between">
+                  <span id="Nine-products-price" class="text-sm text-center mx-auto font-bold"
+                    >339.00 TK</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- add section -->
+      <div class="lg:pt-36">
+        <div
+          href="#"
+          class="lg:w-80 h-40 max-w-sm p-4 bg-white border border-gray-50 rounded-lg shadow"
+        >
+          <h5 class="mb-2 text-2xl font-bold text-gray-900">Have coupon?</h5>
+
+          <form class="max-w-md mx-auto">
+            <div class="flex">
+              <div class="relative w-full">
+                <input
+                  type="text"
+                  id="coupon"
+                  class="block p-2.5 w-full z-20 text-sm text-gray-900 bg-gray-50 rounded-e-lg border-s-gray-50 border-s-2 border border-gray-300"
+                  placeholder="Search for city or address"
+                  required
+                />
+                <button
+                  type="submit"
+                  id="coupon-apply"
+                  class="absolute top-0 end-0 h-full p-2.5 text-sm font-medium text-white bg-fuchsia-600 rounded-e-lg"
+                >
+                  <p>Apply</p>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div
+          href="#"
+          class="lg:w-80 h-auto max-w-sm p-4 mt-6 bg-white border border-gray-50 rounded-lg shadow"
+        >
+          <ol id="product-list"></ol>
+          <hr />
+          <div class="text-2xl pb-6 font-medium">
+            <h4>
+              <span class="font-bold text-lg">Total price :</span>
+              <span id="total-price"></span>
+            </h4>
+            <h4>
+              <span class="font-bold text-lg">Discount :</span>
+              <span id="Discount-price"></span>
+            </h4>
+            <h4>
+              <span class="font-bold text-lg">Total :</span>
+              <span id="Total-discount-price"></span>
+            </h4>
+          </div>
+          <hr />
+        </div>
+        <a
+          href="#my_modal_8"
+          onclick="my_modal_1.showModal()"
+          id="purchase"
+          class="btn text-white bg-fuchsia-600 hover:bg-fuchsia-700 border-none font-medium rounded-lg text-sm px-28 ms-2 -mt-28"
+          >Make Purchase</a
+        >
+        <div class="modal" role="dialog" id="my_modal_8">
+          <div class="modal-box text-center bg-white text-slate-800">
+            <div>
+              <img
+                src="images/congo.png"
+                class="items-center mx-auto"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <h3 class="font-bold text-4xl">Congratulations</h3>
+            <p class="py-4">Your Purchase the product</p>
+            <div class="modal-action">
+              <a id="reload-web"
+                href="#"
+                class="btn items-center mx-auto bg-fuchsia-600 hover:bg-fuchsia-700 text-white border-none"
+                >Go Home</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="summer-js/summer-sele.js"></script>
+    <script src="summer-js/coupon.js"></script>
+  </body>
+</html>
